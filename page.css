@@ -1,0 +1,64 @@
+html {
+    font-family: 'Jua', sans-serif;
+}
+h1 {
+    color: blueviolet;
+    background-color: lawngreen;
+}
+h1:hover {
+    background-color: #2fa76b;
+    color: white;
+}
+
+
+.p1 {
+    color: plum;
+}
+
+.P2 {
+    color: peru;
+}
+
+.intro {
+    color: rgb(43, 3, 223);
+}
+
+p {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    text-transform:capitalize;  
+}
+
+p:hover {
+    color: red;
+    font-size: 32px;
+    transition-property: all;
+    transition-duration: 3s;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 48%;
+    margin-top: 50px;
+
+    transform: skewY(45deg);
+    transition: 2s;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: skyblue;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 100%;
+    flex-shrink: 0;
+    height: 50px;
+    background-color: pink;
+    border: 1px solid black;
+}
