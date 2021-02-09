@@ -6,27 +6,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="home.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="frame">
         <nav class="navigator">
             <h3 class="site-name">Hong</h3>
             <ul>
-                <li><a href="index.html" class="nav-menu">Work</a></li>
-                <li><a href="info.html" class="nav-menu">Info</a></li>
+                <li><a href="#work" class="nav-menu">Work</a></li>
             </ul>
         </nav>
         <div class="dashboard">
-            <h1 class="korean-lorem">갑 설산에서 목숨이 <a class="sample">청춘</a> <a class="highlight type1">가치</a>를 운다. 커다란 간에 같이 <a class="highlight type2">우리</a> 이것이다.</h1>
-
-            <p class="english-lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>Dolores repellat soluta unde necessitatibus praesentium optio temporibus nemo deserunt dolorem pariatur, maxime fuga ipsum inventore aut quod, numquam reiciendis atque itaque.</p>
+            <h1 class="introduce">안녕하세요 <a class="sample">홍은기입니다.</a><br> <a class="highlight type1">외식업</a>에 종사하면서 단순히 요리를 하는 것이 아니라 재고·인력·재무 관리 등의 필요성을 느끼며 <br>ERP시스템을 만들어 보고 싶어 <a class="highlight type2">개발자</a> 를 꿈꾸게 되었습니다.</h1>
+            <p class="introduce2"><h3>사용 가능한 기술</h3>
+            데이터베이스: Oracle 초급<br>
+            언어: JAVA 초급, JavaScript 초급<br>
+            웹표준: HTML, CSS 초급</p>
+            <p class="introduce2"><h3>교육사항</h3>
+            JAVA기반 IT콘텐츠 개발자 양성과정 -중앙정보기술인재개발원 20.07~ 20.12 6개월</p>
+            <p class="introduce2"><h3>경력</h3>
+            미즈컨테이너 매니저·점장 17.2~ 20.2</p>
         </div>
-
-        <h5 class="recent-menu">Recent Works</h5>
-            <a href="news.html">뉴스페이지</a>
-        <div class="recent-works"></div>
-
+        <div>
+        <h2 class="recent-menu" id="work">Recent Works</h2>
+            <div class="recent-works">
+                <a href="news.html"><img src="new.png" id="work-picture"></a>
+                <div class="introduction">
+                    <h2>설명</h2>
+                    <p>신문지 느낌을 주기위해 신문지, 재생지 같은 계열의 배경색으로 지정하였고, <br> CSS를 활용해 흑백사진에 마우스 커서를 사진위에 올리면 원래 사진의 색으로 전환되게 만들었습니다.</p>
+                </div>
+            </div>
+        </div>
         <footer class="work-footer">
             <h3 class="contact">Contact Me</h3>
             <div class="links">
@@ -35,8 +45,7 @@
             </div>
             
         </footer>
-
-        
     </div>
+    
 </body>
 </html>
